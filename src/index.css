@@ -1,3 +1,13 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+:root {
+  --primary: #1f509a;
+  --secondary: #e38e49;
+  --primary-light: #d4ebf8;
+  --primary-dark: #0a3981;
+  --special: #ffd700;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +20,37 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/*header bar*/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--primary-dark);
+  color: "white";
+  height: 160px;
+  padding: 0 40px;
+}
+
+.logodiv {
+  height: 80%;
+  padding-top: 20px;
+}
+
+.logo {
+  height: 100%;
+}
+
+
+/*painting gallery*/
+.gallerysection {
+  display:flex;
+  justify-content:center;
+  padding: 30px;
+  background: var(--primary-dark);
+}
+
+.gallery{
+  width: 80%;
 }
