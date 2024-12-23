@@ -29,12 +29,12 @@ code {
   justify-content: flex-start;
   background-color: var(--primary-dark);
   color: "white";
-  height: 160px;
+  height: 150px;
   padding: 0 40px;
 }
 
 .logodiv {
-  height: 80%;
+  height: 90%;
   padding-top: 20px;
 }
 
@@ -42,15 +42,73 @@ code {
   height: 100%;
 }
 
+/*banner*/
+
+.bannersection h1{
+  background: var(--special);
+  padding-top: 20px;
+  margin: 0;
+}
+
 
 /*painting gallery*/
 .gallerysection {
   display:flex;
   justify-content:center;
-  padding: 30px;
+  padding: 10px 30px 50px 30px;
   background: var(--primary-dark);
 }
 
 .gallery{
   width: 80%;
 }
+
+.gallery h1 {
+  margin: 0;
+  font-size: 60px;
+  font-family: "Italianno", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--special)
+  
+}
+
+
+
+/*quote*/
+.quotesection {
+  background: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  padding: 40px;
+}
+
+.quotearabic h1{
+  color: var(--primary-light);
+  font-size: 72px;
+  font-family: 'Brush Script MT', cursive;
+  margin: 0;
+}
+
+.quoteenglish h1{
+  font-size: 42px;
+  color: var(--primary-dark);
+  margin: 0;
+}
+
+.quoteauthordiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%; /* Ensure it spans the full width */
+}
+
+.quoteauthor h3 {
+  padding-right:40px;
+  font-size: 30px;
+  color: var(--primary-dark)
+}
+
+
